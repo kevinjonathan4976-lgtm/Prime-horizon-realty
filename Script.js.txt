@@ -1,0 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+    alert("Welcome to Prime Horizon Realty!");
+    
+    console.log("Prime Horizon Realty website loaded successfully");
+});

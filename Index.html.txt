@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Horizon Realty</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Prime Horizon Realty</h1>
+    <p>Turning Property Dreams Into Reality</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We help clients buy, sell, and rent properties with trust and professionalism.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Residential Property Sales</li>
+        <li>Commercial Property Sales</li>
+        <li>Property Rentals</li>
+        <li>Investment Consulting</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@primehorizonrealty.com</p>
+    <p>Phone: +1 (555) 123-4567</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Prime Horizon Realty</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
