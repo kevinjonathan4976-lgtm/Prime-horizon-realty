@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    alert("Welcome to Prime Horizon Realty!");
-    
-    console.log("Prime Horizon Realty website loaded successfully");
-});
+function searchProperties() {
+let input = document.getElementById("searchInput").value;
+if (input === "") { alert("Enter a location"); } else { alert("Searching properties in " + input); } 
+}
