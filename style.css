@@ -1,3 +1,7 @@
+html{
+scroll-behavior:smooth;
+}
+
 body{
 font-family:Arial,sans-serif;
 margin:0;
@@ -33,6 +37,16 @@ padding:40px;
 text-align:center;
 }
 
+.hero button{
+background:#0066cc;
+padding:12px 25px;
+font-size:16px;
+}
+
+.hero button:hover{
+background:#004c99;
+}
+
 .search-box input{
 padding:10px;
 width:250px;
@@ -49,8 +63,8 @@ padding:40px;
 
 .property-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
 }
 
 .property-card{
@@ -58,12 +72,18 @@ background:white;
 border-radius:10px;
 overflow:hidden;
 box-shadow:0 3px 10px rgba(0,0,0,.15);
+transition:0.3s;
+}
+
+.property-card:hover{
+transform:translateY(-5px);
 }
 
 .property-card img{
 width:100%;
 height:220px;
 object-fit:cover;
+display:block;
 }
 
 .property-card h3,
@@ -74,18 +94,24 @@ padding:0 15px;
 .property-card button{
 margin:15px;
 padding:10px 20px;
-background:#0066cc;
+background:#2563eb;
 color:white;
 border:none;
 border-radius:5px;
 cursor:pointer;
+transition:0.3s;
+}
+
+.property-card button:hover{
+background:#1d4ed8;
 }
 
 form{
 display:flex;
 flex-direction:column;
 gap:10px;
-max-width:500px;
+max-width:700px;
+width:100%;
 }
 
 input,
@@ -95,6 +121,11 @@ border:1px solid #ccc;
 border-radius:5px;
 }
 
+textarea{
+min-height:120px;
+resize:vertical;
+}
+
 button{
 background:#0066cc;
 color:white;
@@ -102,6 +133,10 @@ border:none;
 padding:12px;
 border-radius:5px;
 cursor:pointer;
+}
+
+button:hover{
+background:#004c99;
 }
 
 .whatsapp{
@@ -114,6 +149,7 @@ padding:15px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
+box-shadow:0 3px 10px rgba(0,0,0,.2);
 }
 
 footer{
@@ -125,8 +161,27 @@ margin-top:30px;
 }
 
 @media(max-width:768px){
+
+header{
+padding:30px 20px;
+}
+
+.hero{
+padding:30px 20px;
+}
+
+section{
+padding:30px 20px;
+}
+
 nav a{
 display:block;
 margin:10px 0;
 }
+
+.whatsapp{
+font-size:14px;
+padding:12px;
+}
+
 }
